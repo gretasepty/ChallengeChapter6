@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Register"
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/cinema"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_filmReg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <EditText
+        android:hint="Masukkan username"
+        android:id="@+id/edt_usernameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Masukkan password"
+        android:id="@+id/edt_passwordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Masukkan konfirmasi password"
+        android:id="@+id/edt_konPassReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btn_register"
+        android:layout_marginTop="200dp"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ProfileActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/img_halProfile"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/roundercorner"
+        android:id="@+id/edt_usernameProf"
+        android:gravity="center"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/roundercorner"
+        android:id="@+id/edt_passwordProf"
+        android:gravity="center"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/roundercorner"
+        android:id="@+id/edt_namaProf"
+        android:gravity="center"
+        android:hint="Nama Lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/roundercorner"
+        android:id="@+id/edt_ttlProf"
+        android:gravity="center"
+        android:hint="Tanggal Lahir"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:background="@drawable/roundercorner"
+        android:id="@+id/edt_alamatProf"
+        android:gravity="center"
+        android:hint="Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/birutua"
+        android:textAllCaps="false"
+        android:text="Update"
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:backgroundTint="@color/merah"
+        android:textAllCaps="false"
+        android:text="Logout"
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
